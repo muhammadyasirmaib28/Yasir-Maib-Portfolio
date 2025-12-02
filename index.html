@@ -95,28 +95,47 @@
 <!--main section ends here-->
 
 <!--services section starts here-->
-<section class="w-full md:h-[535px] h-[550px] bg-yellow-600/80 text-white border-b-2 border-white/50">
-  <!--main div-->
-  <div class="flex flex-wrap items-center justify-center flex-col">
-    <!--heading-->
-    <div>
-      <p class="text-white  md:text-[45px] text-2xl font-medium md:mt-[100px] mt-[50px] my-[40px] underline underline-offset-8">SERVICES</p>
+<section class="w-full bg-yellow-600/80 text-white border-b-2 border-white/50">
+  <div class="max-w-7xl mx-auto md:h-[535px] h-auto flex flex-col md:flex-row items-stretch">
+    <!-- TEXT (50%) -->
+    <div class="md:w-1/2 w-full flex flex-col justify-center px-6 md:px-12 py-10">
+      <p class="text-white md:text-[35px] text-xl font-medium underline underline-offset-8 mb-6">SERVICES</p>
+
+      <div class="md:text-xl text-lg font-light text-left leading-relaxed">
+        <i>
+          I provide modern and responsive web design services tailored
+          to your needs. My focus is on creating clean, user-friendly,
+          and fully functional websites using HTML, CSS, and Tailwind CSS.
+          I aim to deliver projects that are not only visually appealing
+          but also optimized for performance and accessibility.
+        </i>
+      </div>
+
+      <div class="mt-8">
+        <button class="inline-block md:px-8 px-6 py-2 text-white hover:bg-white/40 font-medium md:text-xl text-lg rounded-lg bg-white/20 transition-all duration-300">
+          Contact Us
+        </button>
+      </div>
     </div>
-  <!--text-->
-  <div class="md:text-2xl text-xl w-[80%] font-light text-center">
-    <i>I provide modern and responsive web design services tailored
-      to your needs. My focus is on creating clean, user-friendly, 
-      and fully functional websites using HTML, CSS, and Tailwind CSS.
-      I aim to deliver projects that are not only visually appealing
-      but also optimized for performance and accessibility.
-    </i>
-  </div>
-  <!--contact us-->
-  <p class="md:px-8 px-6 py-2 text-white hover:bg-white/40 font-medium md:text-xl text-lg rounded-lg bg-white/20 cursor-pointer transition-all duration-500 ease-in-out md:mt-[50px] mt-[22px]">Contact Us</p>
+
+    <!-- VIDEO (50%) -->
+    <div class="md:w-1/2 w-full flex items-center justify-center px-6 md:px-12 py-10">
+      <!-- video card (small box inside the right half) -->
+      <div class="w-full max-w-[520px] md:w-[90%] bg-black/5 rounded-xl overflow-hidden shadow-lg">
+        <video
+          src="Screen Recording 2025-12-02 204752.mp4"
+          class="w-full h-auto object-cover block"
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-label="Service demo video">
+        </video>
+      </div>
+    </div>
   </div>
 </section>
-<!--services section ends here-->
-    
+
 <!--projects section starts here-->
 <section class="w-full h-auto py-16 px-8 flex flex-col items-center justify-center bg-black/70 border-b-2 border-white/50">
   <!--heading-->
@@ -395,6 +414,7 @@
   </div>
 </section>
 <!--cards section ends here-->
+
 <!--hire me section-->
 <section class="w-full h-auto p-10 bg-gray-900 border-b-2 border-white/50">
   <!--main div-->
@@ -446,7 +466,7 @@
       <div class="relative z-10 md:w-[380px] w-[280px] h-auto p-2 bg-yellow-500/90 flex flex-wrap flex-col rounded-lg justify-start gap-2">
         <!--blur image-->
         <div class="absolute inset-0 -z-10 overflow-hidden">
-          <img src="footer-boxes-blur-image.jpg" class="w-full h-full object-cover blur-sm" alt="">
+          <img src="footer-boxes-blur-image.jpg" class="w-full h-full md:object-cover object-contain blur-sm" alt="">
           <div class="absolute inset-0 bg-black/50"></div>
         </div>
         <h1 class="text-2xl text-black/90 font-bold">About Us:</h1>
@@ -456,7 +476,7 @@
       <div class="relative z-10 md:w-[380px] w-[280px] h-auto p-2 bg-yellow-500/90 flex flex-wrap flex-col rounded-lg justify-start gap-2">
         <!--blur image-->
         <div class="absolute inset-0 -z-10 overflow-hidden">
-          <img src="footer-boxes-blur-image.jpg" class="w-full h-full object-cover blur-sm" alt="">
+          <img src="footer-boxes-blur-image.jpg" class="w-full h-full md:object-cover object-contain blur-sm" alt="">
           <div class="absolute inset-0 bg-black/50"></div>
         </div>
         <h1 class="text-2xl text-black/90 font-bold">Contact Us:</h1>
